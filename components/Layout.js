@@ -9,9 +9,27 @@ const layoutStyle = {
 
 const Layout = props => (
     <div style={layoutStyle}>
-        <Header />
-        {props.children}
+      <Header />
+      {/* {props.content} */}
+      {props.children}
     </div>
-)
+  );
+  
+export default Layout;
 
-export default Layout
+// const Layout = props => (
+    // <div style={layoutStyle}>
+    //     <Header />
+    // </div>
+// )
+
+// const withLayout = Page => {
+//     return () => {
+//         <div style={layoutStyle}>
+//             <Header />
+//             <Page />
+//         </div>
+//     }
+// }
+
+// export default withLayout
