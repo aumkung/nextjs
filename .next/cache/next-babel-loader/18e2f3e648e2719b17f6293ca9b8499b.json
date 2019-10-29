@@ -1,0 +1,1 @@
+{"ast":null,"code":"export * from './variable-color';","map":{"version":3,"sources":["/home/tassanai/Documents/nextjsTest/colors/index.js"],"names":[],"mappings":"AAAA,cAAc,kBAAd","sourcesContent":["export * from './variable-color'"]},"metadata":{},"sourceType":"module"}

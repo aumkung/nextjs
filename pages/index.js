@@ -1,12 +1,17 @@
-import Link from 'next/link';
+import Layout from '../components/Layout'
+import { color, size } from '../colors'
 
-const Index = () => (
-    <div>
-        <Link href="/about">
-            <a>About Page</a>
-        </Link>
-        <p>Bobo083</p>
-    </div>
-)
-
-export default Index
+export default function Index() {
+    return (
+        <div>
+            <Layout>
+                <p style={{
+                    backgroundColor: color.primary,
+                    fontSize: size.fontSize,
+                    padding: size.padding,
+                    margin: size.margin
+                }}>Index Page</p>
+            </Layout>
+        </div>
+    )
+}

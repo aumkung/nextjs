@@ -1,0 +1,1 @@
+{"version":3,"file":"static/webpack/static/development/pages/index.js.368c0855baa487d5ce6e.hot-update.js","sources":["webpack:///./colors/variable-size.js"],"sourcesContent":["export const size = {\n    padding: '20px 10px',\n    fontSize: '16px'\n}"],"mappings":";;;;;;;;;;AAAA;AAAA;AAAA;AACA;AACA;AAFA;;;;A","sourceRoot":""}

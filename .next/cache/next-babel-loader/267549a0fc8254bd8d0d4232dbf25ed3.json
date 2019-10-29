@@ -1,0 +1,1 @@
+{"ast":null,"code":"export * from './variable-color';\nexport * from './variable-size';","map":{"version":3,"sources":["/home/tassanai/Documents/nextjsTest/colors/index.js"],"names":[],"mappings":"AAAA,cAAc,kBAAd;AACA,cAAc,iBAAd","sourcesContent":["export * from './variable-color'\nexport * from './variable-size'"]},"metadata":{},"sourceType":"module"}
