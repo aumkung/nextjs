@@ -7,13 +7,18 @@
     "isomorphic-unfetch": "^3.0.0",
     "next": "^9.1.1",
     "react": "^16.11.0",
-    "react-dom": "^16.11.0"
+    "react-dom": "^16.11.0",
+    "react-markdown": "^4.2.2"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "cross-env": "^6.0.3"
+  },
   "scripts": {
     "dev": "next",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "start-9000": "next start -p 9000",
+    "start-8000": "next start -p 8000"
   },
   "repository": {
     "type": "git",
